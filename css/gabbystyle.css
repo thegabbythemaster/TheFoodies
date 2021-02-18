@@ -8,20 +8,12 @@
     top: 0;
   }
 */
-*{
-    margin: 0;
-    padding: 0;
+body {
+    overflow-x: hidden !important;
 }
-div, body, html{
-    border: 0;
-    font-family: inherit;
-    font-size: 100%;
-    font-style: inherit;
-    font-weight: inherit;
-    margin: 0;
-    outline: 0;
-    padding: 0;
-    vertical-align: baseline;
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 img{
     max-width: 100%;
@@ -49,7 +41,7 @@ a{
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 400px 700px 1fr;
+    grid-template-rows: 1fr 1fr;
     padding: 10px;
     grid-template-areas: "left-content left-content right-content right-content";
 }
@@ -63,17 +55,19 @@ a{
     grid-area: right-content;
     border-left: 1px solid grey;
   }
-  .Ingredients{
-      margin-left: 20px;
+  #Ingredients{
+      margin-left: 200px;
       grid-area: recipe;
       grid-row-start: 2;
       grid-row-end: span 2;
       grid-column-start: 1;
       grid-column-end: 2;
   }
-  .recipe{
+  #recipe{
       grid-area: recipe;
+      margin-left: 20px;
   }
+
   #wheretoget{
       font-size: 40px;
       margin-right: 40px;
@@ -83,4 +77,92 @@ a{
       font-size: 20px;
       margin-right: 40px;
       padding-top: 10px;
+  }
+
+  .snip1295 {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 6px;
+    width: 500px;
+  }
+
+  .snip1295 .border {
+    position: absolute;
+    
+  }
+  .snip1295 .border:before,
+  .snip1295 .border:after,
+  .snip1295 .border div:before,
+  .snip1295 .border div:after {
+    background-color: #128cd3;
+    position: absolute;
+    content: "";
+    display: block;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  .snip1295 .border:before,
+  .snip1295 .border:after {
+    width: 0;
+    height: 1px;
+  }
+  .snip1295 .border div:before,
+  .snip1295 .border div:after {
+    width: 1px;
+    height: 0;
+  }
+  .snip1295 .border.one {
+    left: 0;
+    top: 0;
+    right: 12px;
+    bottom: 12px;
+  }
+  .snip1295 .border.one:before,
+  .snip1295 .border.one div:before {
+    left: 0;
+    top: 0;
+  }
+  .snip1295 .border.one:after,
+  .snip1295 .border.one div:after {
+    bottom: 0;
+    right: 0;
+  }
+  .snip1295 .border.two {
+    left: 12px;
+    top: 12px;
+    right: 0;
+    bottom: 0;
+  }
+  .snip1295 .border.two:before,
+  .snip1295 .border.two div:before {
+    right: 0;
+    top: 0;
+  }
+  .snip1295 .border.two:after,
+  .snip1295 .border.two div:after {
+    bottom: 0;
+    left: 0;
+  }
+  .snip1295 a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  .snip1295:hover .border:before,
+  .snip1295.hover .border:before,
+  .snip1295:hover .border:after,
+  .snip1295.hover .border:after {
+    width: 100%;
+  }
+  .snip1295:hover .border div:before,
+  .snip1295.hover .border div:before,
+  .snip1295:hover .border div:after,
+  .snip1295.hover .border div:after {
+    height: 100%;
   }
