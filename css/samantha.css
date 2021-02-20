@@ -29,7 +29,7 @@ body {
   margin-left: 20px;
   margin-right: 5px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   padding: 15px;
   text-align: center;
 }
@@ -40,7 +40,7 @@ body {
   margin-right: 20px;
   margin-left: 5px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   padding: 15px;
   text-align: left;
 }
@@ -59,5 +59,25 @@ body {
 
 #sn-recipe-pic {
   float: right;
+}
 
+#sn-location {
+  flex: 100%;
+  border: 5px solid #e3f7d5;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+#sn-iframe {
+  border: 0;
+  float: bottom;
+  padding-top: 10px;
+}
+
+#sn-address-box {
+  padding: 0;
 }
