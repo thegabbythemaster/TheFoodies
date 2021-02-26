@@ -55,6 +55,7 @@ a{
     font-size: 20px;
     font-family: Ribeye Marrow;
 }
+
 .gabbyphoto{
     width: 100%;
     grid-column-start: 1;
@@ -82,10 +83,10 @@ a{
     grid-column-start: 5;
     grid-column-end: 6;
     grid-row-start: 4;
+    padding-top: 65px;
     padding-bottom: 20px;
-    padding-right: 10px;
-    margin-right: 10px;
 }
+
 lottie-player{
     width: 100%;
     grid-column-start: 3;
