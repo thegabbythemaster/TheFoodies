@@ -27,7 +27,7 @@ We wanted to share our love of food and take the opportunity to bring awareness 
 4. Go over standard design and layout for each of the pages. -> Group Meeting
 5. Work on implementing design and layout. Push latest changes. Commit often, push often.
 6. Merge to main branch.
------
+------
 7. Each person creates a unique homepage branch, i.e. "<name>-homepage-edits". -> Group Meeting
 8. Divvy up tasks for homepage.
 9. Work on homepages. -> Group Meeting
